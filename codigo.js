@@ -53,7 +53,7 @@ function validateForm(event) {
       event.preventDefault();
 
       // Muestra una alerta al usuario para completar todos los campos obligatorios
-      alert('Por favor, complete todos los campos obligatorios.');
+      alert('Por favor, complete todos los campos es obligatorio.');
 
       // Finaliza la función
       return;
@@ -61,7 +61,7 @@ function validateForm(event) {
   }
 
   // Muestra una alerta al usuario de que el formulario se ha enviado con éxito
-  alert('¡Formulario enviado con éxito!');
+  alert('¡Formulario enviado con Exito!');
 }
 
 // Agrega un evento 'submit' al elemento con el id 'dynamic-form', que llama a la función validateForm() cuando se envía el formulario
